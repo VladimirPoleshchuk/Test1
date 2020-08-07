@@ -248,6 +248,9 @@ namespace ConsoleApp4
             */
             #endregion
 
+            #region замена данных
+
+/*
             string data = "12345John Smith          5000 3";
             string updatedData = data.Remove(5, 20);
             Console.WriteLine(updatedData);
@@ -256,10 +259,14 @@ namespace ConsoleApp4
             message = message.Replace("--", " ");
             message = message.Replace("-", "");
             Console.WriteLine(message);
+*/
+            #endregion
 
+            Console.WriteLine("Enter an integer.");
 
-
-
+            int number = Convert.ToInt32(Console.ReadLine());
+            Console.Clear();
+            Console.WriteLine($"You entered number: {number}!");
 
 
 
