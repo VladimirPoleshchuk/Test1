@@ -262,11 +262,14 @@ namespace ConsoleApp4
 */
             #endregion
 
-            Console.WriteLine("Enter an integer.");
+            Console.WriteLine("Enter two integers.");
 
             int number = Convert.ToInt32(Console.ReadLine());
+            int number2 = Convert.ToInt32(Console.ReadLine());
+
+            int sum = number + number2;
             Console.Clear();
-            Console.WriteLine($"You entered number: {number}!");
+            Console.WriteLine($"Sum: {sum}");
 
 
 
