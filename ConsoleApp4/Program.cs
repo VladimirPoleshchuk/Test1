@@ -274,8 +274,8 @@ namespace ConsoleApp4
             Console.WriteLine("New string");
 
             int multi = number * number2;
-            Console.WriteLine(multi);
-            Console.WriteLine("Added another line.")
+            Console.WriteLine($"The product of nambers is equal to {multi}");
+            Console.WriteLine("Added another line.");
 
 
 
