@@ -270,6 +270,8 @@ namespace ConsoleApp4
             int sum = number + number2;
             Console.Clear();
             Console.WriteLine($"Sum: {sum}");
+            
+            Concole.WriteLine("New string")
 
 
 
