@@ -270,6 +270,13 @@ namespace ConsoleApp4
             int sum = number + number2;
             Console.Clear();
             Console.WriteLine($"Sum: {sum}");
+           
+            Console.WriteLine("New string");
+
+            int multi = number * number2;
+            Console.WriteLine($"The product of nambers is equal to {multi}");
+            Console.WriteLine("Added another line.");
+            
             for (int i = 0; i <5; i++)
             {
               
@@ -279,15 +286,6 @@ namespace ConsoleApp4
                 }
                 Console.WriteLine();
             }
-
-
-
-            Console.WriteLine("New string");
-
-            int multi = number * number2;
-            Console.WriteLine($"The product of nambers is equal to {multi}");
-            Console.WriteLine("Added another line.");
-
 
 
 
