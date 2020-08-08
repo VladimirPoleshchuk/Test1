@@ -275,6 +275,7 @@ namespace ConsoleApp4
 
             int multi = number * number2;
             Console.WriteLine(multi);
+            Console.WriteLine("Added another line.")
 
 
 
