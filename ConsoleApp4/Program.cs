@@ -248,6 +248,9 @@ namespace ConsoleApp4
             */
             #endregion
 
+            #region замена данных
+
+/*
             string data = "12345John Smith          5000 3";
             string updatedData = data.Remove(5, 20);
             Console.WriteLine(updatedData);
@@ -256,8 +259,17 @@ namespace ConsoleApp4
             message = message.Replace("--", " ");
             message = message.Replace("-", "");
             Console.WriteLine(message);
+*/
+            #endregion
 
+            Console.WriteLine("Enter two integers.");
 
+            int number = Convert.ToInt32(Console.ReadLine());
+            int number2 = Convert.ToInt32(Console.ReadLine());
+
+            int sum = number + number2;
+            Console.Clear();
+            Console.WriteLine($"Sum: {sum}");
             for (int i = 0; i <5; i++)
             {
               
@@ -270,7 +282,11 @@ namespace ConsoleApp4
 
 
 
+            Console.WriteLine("New string");
 
+            int multi = number * number2;
+            Console.WriteLine($"The product of nambers is equal to {multi}");
+            Console.WriteLine("Added another line.");
 
 
 
